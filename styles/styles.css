@@ -1,0 +1,441 @@
+/*reset*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/*Diseño para mobile*/
+.div{
+  display: flex;
+}
+
+.navtitle{                           /*OK*/
+  color: white;
+  padding-left: 10px;
+}
+
+
+.navbar{                             /*OK*/
+  /*border: 02px solid #558ED5;
+  border-radius: 05px;*/
+  display: none; /*antes no estaba para desktop*/
+  padding-top: 10%;
+  padding-left: 7%;
+  font-family: 'Cabin', sans-serif;
+}
+
+.navbar ul{                             /*OK*/
+  /*display: flex;
+  justify-content: flex-start;*/
+  list-style-type: none;
+  padding: 0;
+  margin: 15px;
+}
+
+.navbar ul li{                             /*OK*/
+  padding: 05px;
+  margin: 0;
+
+}
+
+.navbar ul li a {                             /*OK , font-size 1.5s*/
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 1s ease, font-size 1s;
+}
+
+.navbar ul li a:hover{                             /*OK*/
+  color: #D9D9D9;
+  font-size: 14px;
+}
+
+.img{                             /*OK*/
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: fit-content;
+  padding-right: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.img:hover{
+  width: fit-content;
+  height: 25px;
+}
+
+.imglogo{                             /*OK*/
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.header{                             /*OK*/
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  width: 100%;
+  /* border: 3px solid #1F497D; */
+}
+
+.divheader{                             /*OK*/
+  display: flex;
+  list-style-type: none;
+  padding-right: 10px;
+  align-items: flex-end;
+  }
+
+
+.mainsesion{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  font-family: 'Cabin', sans-serif;
+  padding-left: 0px;
+
+  }
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25% 40px;
+  background-image: url(https://i.pinimg.com/564x/5f/c7/df/5fc7df124df8b752a89aca3dc4a94e41.jpg);
+  background-repeat: none;
+  background-size: cover;
+}
+
+.form{
+  border: 0;
+  outline: none;
+}
+
+.main{
+  font-family: 'Cabin', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  padding: 0px 5% 0px 5%;
+  /* padding: 0px 50px 0px 50px;  */
+  /* border: 3px solid #1F497D; */
+}
+
+.maintitlesesion{
+  padding: 40px 0px 30px;
+  color: white;
+}
+
+.maintitle{             
+  /* padding: 0 0 20px 20px;                OK */
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.mainsubtitle{
+    /* padding: 0 0 20px 20px;  */
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.tableresume{                             /*OK*/
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  text-align: center;
+  /*¿Cómo hacer para que las columnas tengan el mismo tamañao proporcionado?*/
+  }
+
+.cellresume{                             /*OK*/
+  background-color: #D9D9D9;
+  padding: 40px 40px 40px 40px;
+  border-radius: 10px;
+  width: 100%; /*antes 40%*/
+}
+
+.trresume{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.thresume {
+  padding-top: 10px;
+}
+
+select{                             /*OK*/
+  /* background-color: #C3D69B; */
+  background-image: linear-gradient(#C3D69B, #E7EFD7);
+  padding: 8px;
+  border-radius: 05px;
+  border: none;
+  width: 80%;
+}
+
+.spannro{                             /*OK*/
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button{                             /*OK*/
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  background-color: #FFFFFF;
+  padding: 7px;
+  border-radius: 05px;
+  border: 2px solid #B4C7E7;
+  color: #B4C7E7;
+
+}
+
+.table{                             /*OK*/
+  border: 02px solid #D9D9D9;
+  table-layout: auto;
+  text-align: center;
+}
+
+.table tr :nth-child(4),tr :nth-child(5) {
+  display:none;
+}
+
+.tableanotation{                             /*OK*/
+  border: 02px solid #D9D9D9;
+  table-layout: auto;
+  text-align: left;
+}
+
+.table.row {                             /*OK*/
+  border: 02px solid #D9D9D9;
+}
+
+.th{                             /*OK*/
+  padding: 10px;
+  width: 15%;
+  border-bottom: 1px solid #D9D9D9;
+  transition: color 1.5s ease-out;
+}
+
+tr:hover{                             /*OK*/
+  background-color: #D9D9D9;
+}
+
+.divopcion{
+  /* padding: 0 0 20px 20px;  */
+  padding-bottom: 20px;
+}
+
+.buttongrey{                             /*OK*/
+  background-color: #D9D9D9;
+  border-radius: 05px;
+  list-style-type: none;
+  padding: 10px;
+  width: 40%; /*antes 10%*/
+  height: 10%;
+  text-align: center;
+  text-decoration: none; 
+  color: black;
+  border: none;
+  font-size: 15px;
+  font-family: 'Cabin', sans-serif;
+  cursor: pointer;
+}
+
+.buttongreyfont{                             /*OK*/
+  text-decoration: none;
+  color: black;
+}
+
+.mainconfirmed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20%;
+  /*flex-flow: column wrap ;
+  align-content: center;
+  justify-content: center;*/
+  font-family: 'Cabin', sans-serif;
+}
+
+.footer{                             /*OK*/
+  font-family: 'Cabin', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid #1F497D; */
+  width: 100%; 
+}
+
+
+.grid{                             /*OK*/
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "contenido"
+  "footer";
+  grid-template-rows: 1fr 6fr 1fr;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  
+}
+
+.gridiniciosesion{
+  display: grid;
+  grid-template-areas: 
+  "main aside";
+  grid-template-columns: auto;
+
+}
+
+header{                             /*OK*/
+  grid-area: header;
+}
+
+nav{                             /*OK*/
+  grid-area: nav;
+  background-color: #1F497D;
+}
+
+footer{                             /*OK*/
+  grid-area: footer;
+}
+
+#contenido {
+  grid-area: contenido;
+}
+
+@media screen and (max-width:599px) and (orientation: landscape) {
+  .grid{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "contenido"
+    "footer";
+    grid-template-rows: 2fr 6fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .buttongrey{
+    width: 10%;
+  }
+}
+
+/*Fin de diseño para mobile*/
+
+/*Diseño para tableta*/
+@media screen and (min-width:600px) and (orientation: portrait) {
+  
+  .table tr :nth-child(4),tr :nth-child(5) {
+    display: table-cell;
+  }
+}
+ /* .grid{
+
+    }
+     grid-template-areas: 
+    "header header"
+    "nav contenido"
+    "nav footer";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr); 
+    }*/
+
+@media screen and (min-width:600px) and (orientation: landscape) {
+
+  .table tr :nth-child(4),tr :nth-child(5) {
+    display: table-cell;
+  }
+  .grid{                             /*OK*/
+    display: grid;
+    grid-template-areas: 
+    "nav header"
+    "nav contenido"
+    "nav footer";
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 15% auto;
+    height: 100vh;
+    column-gap: 5px;
+    row-gap: 5px;
+    /*eliminar lo q no es necesario*/
+  }
+
+
+.tableresume{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.trresume{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+  .navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+}
+/*Fin de diseño para tableta*/
+
+/*Diseño para desktop*/
+@media screen and (min-width:1200px) {
+  .grid{                             /*OK*/
+    display: grid;
+    grid-template-areas: 
+    "nav header"
+    "nav contenido"
+    "nav footer";
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 15% auto;
+    height: 100vh;
+    column-gap: 5px;
+    row-gap: 5px;
+    /*eliminar lo q no es necesario*/
+  }
+
+  .tableresume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .trresume{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+    .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media print {
+  .grid{
+    display:none;
+  }
+}
+
+/*Fin de diseño para desktop*/

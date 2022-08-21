@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Inicio</title>
+</head>
+<body>
+    <section class="grid">
+        <header class="header">
+                <img class="imglogo" src="images/logo_minsur_completo.png" alt="logo_minsur_blanco">
+            <div class="divheader">
+                <img class="img" src="images/notification.png" alt="notification">
+                <img class="img" src="images/user.png" alt="user">
+            </div>
+        </header>
+        <article id="contenido">
+            <main class="main">
+                <h1 class="maintitle">¡Bienvenida Raquel!</h1>
+                <table class="tableresume" cellpadding="50px" cellspacing="20px"> 
+                    <tr class="trresume">
+                        <th>Status</th>
+                        <th class="thresume">
+                            <select class="select">
+                                <option>Todos los servicios</option>
+                                <option>Boletos aéreos</option>
+                                <option>Hoteles</option>
+                                <option>Boleto terrestre</option>
+                            </select>
+                        </th>
+                        <th class="thresume">
+                            <select class="select">
+                                <option>Último mes</option>
+                                <option>Últimos 3 meses</option>
+                                <option>Último año</option>
+                                <option>Todos</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="trresume"> 
+                        <td class="cellresume"><span class="spannro">1</span> <span>Solicitud</span></td> 
+                        <td class="cellresume"><span class="spannro">1</span> <span>Por dar conformidad</span></td>
+                        <td class="cellresume"><span class="spannro">1</span> <span>Completado</span></td>       
+                    </tr>
+                </table>
+                <br/>
+                <!--h3>Previsualización de vuelos</h3>
+                <iframe src="./pages/misvuelos.html" frameborder="2"></iframe-->              
+                <br/>
+                <label class="button">
+                    Dejar mis comentarios
+                </label>
+            </main>
+        </article>
+        <nav class="navbar">
+            <img class="img" src="images/menu.png" alt="menu">
+            <br/>
+            <h4 class="navtitle">
+                Boleto aéreo
+            </h4>
+            <ul> 
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/reservarmivuelo.html">Reservar mi vuelo</a></li>
+                <li><a href="https://www.latamairlines.com/pe/es/check-in" target="_blank">Check in</a></li>
+                <li><a href="https://www.latamairlines.com/pe/es/flight-status" target="_blank">Estado de vuelo</a></li>
+                <li><a href="pages/darconformidad.html">Dar conformidad</a></li>    
+                <li><a href="pages/misvuelos.html">Mis vuelos</a></li>      
+            </ul>
+        </nav>
+        <footer class="footer">
+            <label>Necesito ayuda</label>
+        </footer>
+    </section>
+</body>
+</html>

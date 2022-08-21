@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Otro vuelo</title>
+</head>
+<body>
+    <section>
+        <section class="grid">
+            <header class="header">
+                <img class="imglogo" src="../images/logo_minsur_completo.png" alt="logo_minsur_blanco">
+                <div class="divheader">
+                    <img class="img" src="../images/notification.png" alt="notification">
+                    <img class="img" src="../images/user.png" alt="user">
+                </div>
+            </header>
+            <article id="contenido">
+                <main class="main">
+                    <h1 class="maintitle">Reservar mi vuelo</h1>
+                    <h2 class="mainsubtitle">Nueva solicitud - Otro</h2>
+                    <div class="divopcion">
+                        <input name="opcion" type="radio">
+                        <span>Solo ida</span>
+                        <input name="opcion" type="radio">
+                        <span>Ida y vuelta</span>
+                    </div> 
+                    <label for="origen">Origen</label>
+                    <br/>
+                    <input id="origen" type="text" placeholder="Ingresa la ciudad de origen">
+                    <br/>
+                    <label for="destino">Destino</label>
+                    <br/>
+                    <input id="destino" type="text" placeholder="Ingresa la ciudad de destino">
+                    <br/>
+                    <label for="fechaida">Fecha de ida</label>
+                    <br/>
+                    <input id="fechaida" type="date" placeholder="Ingresa la fecha de ida">   
+                    <br/> 
+                    <label for="fechavuelta">Fecha de vuelta</label>
+                    <br/>
+                    <input id="fechavuelta" type="date" placeholder="Ingresa la fecha de vuelta">      
+                    <fieldset class="tableanotation">
+                        <legend>Comentarios a tener en cuenta:</legend>
+                        <ul>
+                            <li>Se recomienda acoplarse a los vuelos regulares de movilización</li>
+                            <li>En caso de dudas, se le contactará por correo. </li>
+                            <li>Esta reserva también aplica para vuelos internacionales</li>
+                        </ul>
+                    </fieldset>
+                    <div>
+                        <input class="buttongrey" type="submit" value="Solicitar vuelo">
+                        <input class="buttongrey" type="submit" value="Cancelar"> 
+                    </div>
+                </main>
+            </article>
+            <nav class="navbar">
+                <img class="img" src="../images/menu.png" alt="menu">
+                <br/>
+                <h4 class="navtitle">
+                    Boleto aéreo
+                </h4>
+                <ul> 
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="reservarmivuelo.html">Reservar mi vuelo</a></li>
+                    <li><a href="https://www.latamairlines.com/pe/es/check-in" target="_blank">Check in</a></li>
+                    <li><a href="https://www.latamairlines.com/pe/es/flight-status" target="_blank">Estado de vuelo</a></li>
+                    <li><a href="darconformidad.html">Dar conformidad</a></li>    
+                    <li><a href="misvuelos.html">Mis vuelos</a></li>       
+                </ul>
+            </nav>
+            <footer class="footer">
+                <label>Necesito ayuda</label>
+            </footer>
+    </section>
+
+</body>
+</html>
