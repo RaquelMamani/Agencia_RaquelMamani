@@ -20,8 +20,8 @@
 .navbar{                             /*OK*/
   /*border: 02px solid #558ED5;
   border-radius: 05px;*/
-  display: none; /*antes no estaba para desktop*/
-  padding-top: 10%;
+  /* display: none; antes no estaba para desktop */
+  padding-top: 0%;  /*antes 10%*/
   padding-left: 7%;
   font-family: 'Cabin', sans-serif;
 }
@@ -51,6 +51,7 @@
   color: #D9D9D9;
   font-size: 14px;
 }
+
 
 .img{                             /*OK*/
   display: flex;
@@ -360,7 +361,7 @@ footer{                             /*OK*/
   .table tr :nth-child(4),tr :nth-child(5) {
     display: table-cell;
   }
-  .grid{                             /*OK*/
+  /*. grid{                          
     display: grid;
     grid-template-areas: 
     "nav header"
@@ -371,8 +372,9 @@ footer{                             /*OK*/
     height: 100vh;
     column-gap: 5px;
     row-gap: 5px;
-    /*eliminar lo q no es necesario*/
+    /*eliminar lo q no es necesario
   }
+  */
 
 
 .tableresume{
@@ -398,8 +400,8 @@ footer{                             /*OK*/
 
 /*Diseño para desktop*/
 @media screen and (min-width:1200px) {
-  .grid{                             /*OK*/
-    display: grid;
+  /*.grid{                             /*OK*/
+    /* display: grid;
     grid-template-areas: 
     "nav header"
     "nav contenido"
@@ -408,9 +410,9 @@ footer{                             /*OK*/
     grid-template-columns: 15% auto;
     height: 100vh;
     column-gap: 5px;
-    row-gap: 5px;
-    /*eliminar lo q no es necesario*/
-  }
+    row-gap: 5px; 
+    eliminar lo q no es necesario
+  }*/
 
   .tableresume{
     display: flex;
@@ -430,6 +432,12 @@ footer{                             /*OK*/
     flex-direction: column;
     justify-content: flex-start;
   }
+}
+
+.fondo-nav{
+  background-color: violet;
+  width: 10px;
+
 }
 
 @media print {
